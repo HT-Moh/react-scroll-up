@@ -2,6 +2,7 @@ declare module 'react-scroll-up' {
   import React from 'react';
 
   export interface ScrollToTopProps {
+    children: ReactElement,
     showUnder: number,
     topPosition?: number,
     easing?: 'linear' | 'easeInQuad' | 'easeOutQuad' | 'easeInOutQuad' | 'easeInCubic' |
